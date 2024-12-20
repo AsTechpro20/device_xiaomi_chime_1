@@ -7,11 +7,11 @@
 # Inherit from citrus device
 $(call inherit-product, device/xiaomi/chime/device-citrus.mk)
 
-# Inherit some common Bootleggers stuff.
-$(call inherit-product, vendor/bootleggers/config/common.mk)
+# Inherit some common AfterLife stuff.
+$(call inherit-product, vendor/afterlife/config/common.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := bootleggers_citrus
+PRODUCT_NAME := afterlife_citrus
 PRODUCT_DEVICE := citrus
 PRODUCT_BRAND := POCO
 PRODUCT_MODEL := POCO M3
@@ -31,7 +31,3 @@ TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
 
 # Maintainer Prop
-DEVICE_MAINTAINERS := "hani~🤍"
-BOOTLEGGERS_BUILD_TYPE := Shishufied
-TARGET_BOOTLEG_ARCH := arm64
-WITH_GAPPS := true

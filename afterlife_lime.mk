@@ -7,11 +7,11 @@
 # Inherit from lime device
 $(call inherit-product, device/xiaomi/chime/device-lime.mk)
 
-# Inherit some common Bootleggers stuff.
-$(call inherit-product, vendor/bootleggers/config/common.mk)
+# Inherit some common AfterLife stuff.
+$(call inherit-product, vendor/afterlife/config/common.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := bootleggers_lime
+PRODUCT_NAME := afterlife_lime
 PRODUCT_DEVICE := lime
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi 9T

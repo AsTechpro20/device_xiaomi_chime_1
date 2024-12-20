@@ -5,13 +5,13 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/bootleg_citrus.mk \
-    $(LOCAL_DIR)/bootleg_lime.mk
+    $(LOCAL_DIR)/afterlife_citrus.mk \
+    $(LOCAL_DIR)/afterlife_lime.mk
 
 COMMON_LUNCH_CHOICES := \
-    bootleg_citrus-user \
-    bootleg_citrus-userdebug \
-    bootleg_citrus-eng \
-    bootleg_lime-user \
-    bootleg_lime-userdebug \
-    bootleg_lime-eng
+    afterlife_citrus-user \
+    afterlife_citrus-userdebug \
+    afterlife_citrus-eng \
+    afterlife_lime-user \
+    afterlife_lime-userdebug \
+    afterlife_lime-eng
